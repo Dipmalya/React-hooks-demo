@@ -1,0 +1,66 @@
+.nav-list {
+  padding-left: 0;
+  width: 100%;
+  margin-bottom: 0.7rem;
+}
+
+.nav-list > li {
+  display: inline;
+  background: #17a2b8;
+  color: #fff;
+  font-weight: 400;
+  padding: 0.75rem;
+  margin-left: 2.5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-list :hover {
+  background: #286770 !important;
+}
+
+.selected-nav {
+  background: #04262b !important;
+}
+
+.todo-panel {
+  background: #e6e6e6;
+  padding: 0.5px;
+}
+
+.todo-item {
+  padding-left: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.todo-item > li {
+    background: #d4d4d4;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 1rem 0.75rem;
+    margin: 4px;
+    border-radius: 4px;
+  }
+
+.empty-list {
+    padding: 20px;
+    font-size: 18px;
+    color: #969696;
+    text-align: center;
+}
+
+.item-icon {
+  cursor: pointer;
+  color: #b4b4b4;
+  margin: 0 8px;
+  font-size: 22px;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+  

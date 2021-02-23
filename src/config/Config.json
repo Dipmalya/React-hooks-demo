@@ -1,0 +1,11 @@
+{
+    "Home": {
+        "heading": "Product List",
+        "tableHeaders": [
+            " ",
+            "Name",
+            "Brand",
+            "Price"
+        ]
+    }
+}
